@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\joshu\source\repos\IGME209-03\HW2 Gravity Snake\main.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\joshu\source\repos\IGME209-03\HW2 Gravity Snake\main.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\joshu\source\repos\IGME209-03\HW2 Gravity Snake\main.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\joshu\source\repos\IGME209-03\HW2 Gravity Snake\main.cpp(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\joshu\source\repos\IGME209-03\HW2 Gravity Snake\main.cpp(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\joshu\source\repos\IGME209-03\HW2 Gravity Snake\main.cpp(22,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  HW2 Gravity Snake.vcxproj -> C:\Users\joshu\source\repos\IGME209-03\HW2 Gravity Snake\Debug\HW2 Gravity Snake.exe

@@ -1,0 +1,22 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Graph.cpp
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(117,24): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(119,25): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(134,20): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(151,20): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(159,20): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(171,22): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(207,22): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(216,22): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(218,23): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(234,22): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(236,23): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(246,24): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(285,20): warning C4018: '<': signed/unsigned mismatch
+E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Graph.cpp(289,20): warning C4018: '<': signed/unsigned mismatch
+  Interface.cpp
+  Vertex.cpp
+  Generating Code...
+     Creating library E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Debug\SampleDLL2.lib and object E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Debug\SampleDLL2.exp
+  SampleDLL2.vcxproj -> E:\Git Repositories\Portfolio-Repo\IGME-209 Projects\DSA Project\Debug\SampleDLL2.dll

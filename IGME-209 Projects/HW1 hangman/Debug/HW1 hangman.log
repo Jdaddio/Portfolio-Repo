@@ -1,0 +1,7 @@
+﻿  hangman.cpp
+C:\Users\joshu\source\repos\IGME209-03\HW1 hangman\hangman.cpp(81,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\joshu\source\repos\IGME209-03\HW1 hangman\hangman.cpp(83,21): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+C:\Users\joshu\source\repos\IGME209-03\HW1 hangman\main.cpp(42,31): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  HW1 hangman.vcxproj -> C:\Users\joshu\source\repos\IGME209-03\HW1 hangman\Debug\HW1 hangman.exe

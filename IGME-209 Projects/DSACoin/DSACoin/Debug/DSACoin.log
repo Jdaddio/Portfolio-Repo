@@ -1,0 +1,6 @@
+﻿  DSACoin.cpp
+C:\Users\joshu\source\repos\IGME209-03\DSACoin\DSACoin\DSACoin.cpp(83,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\joshu\source\repos\IGME209-03\DSACoin\DSACoin\DSACoin.cpp(108,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\joshu\source\repos\IGME209-03\DSACoin\DSACoin\DSACoin.cpp(159,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\joshu\source\repos\IGME209-03\DSACoin\DSACoin\DSACoin.cpp(163,20): warning C4018: '<': signed/unsigned mismatch
+  DSACoin.vcxproj -> C:\Users\joshu\source\repos\IGME209-03\DSACoin\Debug\DSACoin.exe
