@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\IGME309Projects\A1 HiLoNumberGameJoshD\Source.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  A1 HiLoNumberGameJoshD.vcxproj -> E:\IGME309Projects\A1 HiLoNumberGameJoshD\Debug\A1 HiLoNumberGameJoshD.exe

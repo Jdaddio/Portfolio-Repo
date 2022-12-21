@@ -1,0 +1,14 @@
+﻿  Source.cpp
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(63,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(64,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(65,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(76,20): warning C4018: '<': signed/unsigned mismatch
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(139,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(140,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(159,20): warning C4018: '<': signed/unsigned mismatch
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(164,20): warning C4018: '<': signed/unsigned mismatch
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(204,21): warning C4018: '<': signed/unsigned mismatch
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(215,93): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(215,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\IGME309Projects\A5 CannonJoshD\Source.cpp(247,20): warning C4018: '<': signed/unsigned mismatch
+  A5 CannonJoshD.vcxproj -> E:\IGME309Projects\A5 CannonJoshD\Debug\A5 CannonJoshD.exe

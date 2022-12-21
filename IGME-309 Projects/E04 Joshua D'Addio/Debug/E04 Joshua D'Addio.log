@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\IGME309Projects\E04 Joshua D'Addio\Source.cpp(21,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+E:\IGME309Projects\E04 Joshua D'Addio\Source.cpp(51,36): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  E04 Joshua D'Addio.vcxproj -> E:\IGME309Projects\E04 Joshua D'Addio\Debug\E04 Joshua D'Addio.exe
