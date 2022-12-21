@@ -1,9 +1,0 @@
-/* Do everything in this file */
-h1, h3 {border-bottom: 1px solid red;}
-h2 {border-bottom: 1px solid red; clear:right;}
-figure {width: 40%; float:right; padding: 1rem;}
-figure img{width:40vw;}
-.tet, .tet-long, .tet-square {width: 14%; float:left; border: 1px solid black; padding:1rem;}
-footer{clear:left; position:fixed; top: 0vw; right: 0vw; z-index: -1;}
-main, header {margin: 0 auto; width: 80vw; padding: 1rem;}
-div img {max-width:100%;}
