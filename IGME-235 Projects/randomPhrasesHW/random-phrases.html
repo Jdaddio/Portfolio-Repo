@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>random-phrases</title>
+    <link rel="stylesheet" type = "text/css" href="css/style.css">
+</head>
+<body>
+    <div id='content'>
+
+        <div id = "title">
+            <h1>
+                What to do with watermelon
+            </h1>
+        </div>
+
+        <div id = "text">
+            <blockquote>
+            </blockquote>
+        </div>
+
+        <div class = "button">
+            <button type = "button">
+                <h2>
+                    Display Quote
+                </h2>
+            </button>
+        </div>
+
+        <div id = "name">
+            Copyright &copy; <b>2021</b> Joshua D'Addio
+        </div>
+
+    </div>
+<script>
+    let phrases = ["Put it in the freezer and serve it as a frozen treat!","Eat it with other fruits in a fruit salad!","Blend it up and make a watermelon smoothie!","Cut it in half and eat it with a spoon!","Cut slices and eat them for an easy snack!"];
+
+    let button = document.querySelector("button");
+
+    window.onload = function(e){
+        document.querySelector("blockquote").innerHTML = phrases[Math.floor(Math.random() * 5)];
+    }
+
+    button.onclick = displayQuote;
+
+    function displayQuote(){
+        let words = ["put", "it", "in", "the", "freezer", "and", "serve", "as", "a", "frozen", "treat", "eat", "with", "other", "fruits", "fruit", "salad", "blend", "up", "make", "watermelon", "smoothie", "cut", "half", "spoon", "slices", "them", "easy", "snack"];
+        let text = [];
+        while (text.length <= 10){
+            text.push(words[Math.floor(Math.random() * words.length)])
+        }
+        document.querySelector("blockquote").innerHTML = text.join(" ") + "!";
+    }
+
+</script>
+</body>
+</html>

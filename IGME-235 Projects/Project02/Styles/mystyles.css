@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    background-color: #fafffd;
+}
+header{
+    height: fit-content;
+    margin: 0 0 20px 0;
+}
+
+header h1{
+    margin:0;
+    color:Green;
+    text-align:center;
+    font-size:100px;
+    padding-top: 35px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+}
+
+#searchArea{
+    margin: 0 auto 30px auto;
+    width: 30%;
+    align-self: center;
+}
+
+.inputSections{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 20px;
+    align-content: flex-start;
+    font-family: 'Ubuntu', sans-serif;
+}
+#nameInput{
+    width: 230px;
+    margin: 0 10px;
+}
+#genreInput{
+    width: 130px;
+    margin: 0 10px;
+}
+#mediaSelect{
+    margin: 0 10px 10px 10px;
+}
+.searchButton{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#biggerContent{
+    margin:0 auto;
+    display:flex;
+    flex-flow: row wrap;
+    background-color: #f7ffe6;
+}
+
+#content{
+    margin:0 auto;
+    width: 90%; 
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.result{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 210px;
+}
+.ResultButton{
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.result span{
+    order: -1;
+}
+.result img{
+    width: 100%;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0, 0.8);
+}
+
+#content2{
+    font-size: 21px;
+}  
+
+#moreResults{
+    overflow: scroll;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 20px;
+    width: 80%;
+    float: left;
+    outline: 1px solid grey;
+    background-color: #d9f8ff;
+    font-size: 18px;
+}
+.newResult{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #ededed;
+}
+.newResult img{
+    width: 100%;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0, 0.8);
+}
+.resultText{
+    align-content: center;
+    text-align: center;
+}
+
+#contentHeader{
+    margin:0 auto;
+    width: 85%; 
+    display: flex;
+    flex-flow: row nowrap;
+    height: 35px;
+}
+#contentHeader h2{
+    margin:0 10px;
+}
+#contentHeader button{
+    margin:0 10px;
+    height: 80%;
+    width: 110px;
+}
+#contentHeader input{
+    margin:0 10px;
+    height: 65%;
+    width: 25px;
+    text-align: center;
+}
+
+#contentFooter{
+    margin:0 auto;
+    width: 85%; 
+    display: flex;
+    flex-flow: row nowrap;
+    height: 80px;
+    justify-content: center;
+}
+#contentFooter h2{
+    margin:0 10px;
+}
+#contentFooter button{
+    margin:0 10px;
+    height: 80%;
+    width: 110px;
+}
+#contentFooter input{
+    margin:0 10px;
+    height: 70%;
+    width: 25px;
+    text-align: center;
+}
+#loading{
+    width: 35%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 850px) {
+    #moreResults{
+
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        gap: 20px;
+        width: 80%;
+        min-height: 1000px;
+        float: left;
+        outline: 1px solid grey;
+    }
+    .result{
+        display: flex;
+        flex-flow: row nowrap;
+        min-width: 350px;
+        max-height: fit-content;
+    }
+    .ResultButton{
+        display: flex;
+        flex-flow: row nowrap;
+        min-width: 350px;
+        max-height: fit-content;
+    }
+    .ResultButton p {
+        margin: auto;
+    }
+    .result img{
+        max-height: 185px;
+        max-width: 130px;
+        float: left;
+        margin-right: 10px;
+    }
+    #content{
+        margin:0 auto;
+        width: 90%; 
+        display:grid;
+        grid-template-columns: minmax(200px, 380px);
+        gap: 10px;
+    }
+}

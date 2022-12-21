@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Dogica;
+    src: url(Fonts/dogicapixel-webfont.woff);
+}
+@font-face {
+    font-family: Retro-Computer;
+    src: url(Fonts/retro_computer_personal_use-webfont.woff);
+}
+body{
+    background-color: #35363D; 
+    font-family: Dogica; 
+    line-height: 1.5em;
+    font-size: 0.8vw;
+}
+
+h1{
+    font-family: Retro-Computer;
+    line-height: 1em;
+}
+h2, h3{
+    font-family: Retro-Computer;
+    line-height: 1em;
+}
+
+header{
+    display: flex; 
+    flex-flow: row nowrap;
+    align-content: center;
+    padding: 5px 11%;
+    background-color: #686868;
+    color: white;
+}
+.axeImg {width: 70px; min-width: 70px; height: 70px; overflow: hidden; filter: invert(1); align-self: center;}
+.right {margin-left: auto; text-align: right;}
+.left {display: flex; flex-flow: row wrap; align-content: center;}
+
+#oakTree{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 1rem 0;
+    color: white;
+}
+
+.oakTreeText{box-sizing: border-box; max-width: 720px; max-height: 720px; background-color: #686868; padding: 1rem 3.5rem; margin: 2.5rem 1rem 2.5rem auto; font-size: .75vw;}
+.oakTreeImg{
+    box-sizing: border-box; 
+    max-width: 720px; 
+    max-height: 720px;
+    min-width: 360px; 
+    min-height: 360px;
+    align-self: center;
+    background-image: linear-gradient(to bottom right, #E8FDF5, #244D3E); 
+    display:flex; 
+    justify-content: center; 
+    align-content: center; 
+    border: 10px solid white; 
+    padding: 1rem; 
+    margin: 2.5rem auto 2.5rem 1rem;
+}
+.oakTreeImg img{max-width: 90%; margin: 1rem;}
+
+.valley img {max-width: 100%;}
+
+#items{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: minmax(auto, 720px) minmax(auto, 720px);
+    grid-template-areas:
+    "planks sticks"
+    "chests stairs";
+    padding: 1rem 2rem;
+    justify-content: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+.item{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 360px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+}
+.graphics{
+    box-sizing: border-box; 
+    max-width: 48%;
+    height: 96%;
+    background-color: #324E44; 
+    display:flex; 
+    flex-flow: column wrap;
+    justify-content: center; 
+    align-content: center; 
+    border: 10px solid white; 
+    padding: 1rem;
+    text-align: center;
+}
+.itemText {
+    box-sizing: border-box; 
+    max-width: 48%;
+    height: 96%;
+    background-color: #686868; 
+    display:flex; 
+    flex-flow: row wrap;
+    justify-content: center; 
+    align-content: center; 
+    padding: 1rem;
+}
+.itemImg {max-width: 65%; min-width: 100px;}
+.itemImg img {max-width: 100%;}
+
+footer{
+    display: flex; 
+    flex-flow: row nowrap;
+    align-content: center;
+    padding: 5px 11%;
+    background-color: #686868;
+    color: white;
+    background-image: url("Assets/trees.jpg");
+    background-size: 100%;
+    background-position: 50%;
+}
+
+@media screen and (max-width: 850px) {
+    body{
+        font-size: 2vw;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    #oakTree{
+        flex-flow: column wrap;
+    }
+    .oakTreeText, .oakTreeImg{
+        margin:auto;
+        font-size: 2vw;
+    }
+    
+    #items{
+        margin: auto;
+        height:100rem;
+        row-gap: 1rem;
+    }
+    .item{
+        flex-flow: column;
+        justify-content: center;
+        height: auto;
+    }
+    .graphics{
+        flex-flow: row nowrap;
+        height: 250px;
+    }
+    .graphics, .itemText{
+        max-width: 100%;
+    }
+    
+}

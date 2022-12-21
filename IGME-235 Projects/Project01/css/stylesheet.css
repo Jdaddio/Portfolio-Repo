@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+
+body{
+    background-color: #4C556B;
+}
+
+header{
+    min-height: 700px;
+    margin: 20px auto 20px auto;
+}
+#nameandphoto{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box; 
+    border: 10px solid #ACD2D7;
+    border-bottom: 0;
+    background-color: #D2D6DA;
+    width: 1000px;
+    max-width: 80%;
+}
+#name{
+    grid-area: name;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    font-size: x-large;
+    background-color: #D2D6DA;
+    font-family: 'Bakbak One', cursive;
+    padding: 10px 30px 10px 10px;
+    min-width: 28%;
+}
+#name h1{
+    align-self: center;
+    text-align: center;
+}
+#photo{
+    grid-area: picture;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    background-color: #D2D6DA;
+    padding: 10px 10px 10px 30px;
+    min-width: 28%;
+}
+#photo img{
+    max-width: 300px;
+}
+#tagline{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+#inTagline{
+    background-color: #ACD2D7;
+    width: 1000px;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+}
+#tagline h2{
+    text-align: center;
+    align-self: center;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: -.02em;
+}
+
+#navBar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: #bcebc2;
+    box-sizing: border-box;
+    border: 10px solid #8de398;
+    margin: 20px auto 20px auto;
+    width: 80%;
+    max-width: 80%;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .06em;
+    color: #008712;
+}
+.navBarElement{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;    
+    width: 25%;
+}
+.navBarElement:hover {color: #13bf2a; background-color: #8de398; transition: background-color .25s ease-out 1ms; }
+.navBarElement:focus {color: #13bf2a; background-color: #8de398; }
+.navBarElement:active {color: #c7500c; background-color: #ffb48a;}
+
+#aboutme{
+    grid-area: about;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#aboutMeTitle{
+    background-color: #6fd6e3;
+    width: 80%;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .06em;
+
+}
+#inAboutme{
+    background-color: #D2D6DA;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    border: 10px solid #6fd6e3;
+    font-family: 'Overpass', sans-serif;
+    font-size: large;
+    letter-spacing: -.05em;
+}
+#inAboutme blockquote{
+    font-size: larger;
+    line-height: 2.5rem;
+}
+
+#contactInfoTitle{
+    background-color: #6fd6e3;
+    width: 80%;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto 0 auto;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .06em;
+
+}
+#underHeader{
+    background-color: #D2D6DA;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+    box-sizing: border-box;
+    border: 10px solid #6fd6e3;
+    margin: 0 auto 20px auto;
+    
+}
+#contactInfo{
+    display:flex;
+    align-content: center;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: -.05em;
+    line-height: 40px;
+}
+#contactInfo h2{
+    align-self: center;
+}
+#resume{
+    display:flex;
+    align-content: center;
+    font-size: large;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: -.05em;
+}
+#resume h1{
+    align-self: center;
+    text-align: center;
+}
+
+#galleryOuter{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+
+}
+#galleryTitle {
+    background-color: #6fd6e3;
+    width: 80%;
+    max-width: 80%;
+    height: 100%;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .06em;
+
+}
+#galleryInner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto 0 auto;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    width: 80%;
+    max-width: 80%;
+    background-color: #D2D6DA;
+    box-sizing: border-box;
+    border: 30px solid #6fd6e3;
+    border-top: 0;
+}
+.galleryImg {
+    max-width: 200px;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: #D2D6DA;
+    padding: 10px;
+}
+.galleryImg img{
+    max-width: 200px;
+    width: 200px;
+    max-height: 200px;
+    height: 200px;
+}
+
+#projectsTitle{
+    background-color: #6fd6e3;
+    width: 80%;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto 0 auto;
+    font-size: larger;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .06em;
+}
+#projects{
+    display: flex; 
+    flex-flow: column wrap;
+    margin: 0 auto 20px auto;
+    width: 80%;
+    max-width: 80%;
+    background-color: #D2D6DA;
+    box-sizing: border-box;
+    border: 30px solid #6fd6e3;
+    border-top: 0;
+}
+.project{
+    display: flex; 
+    flex-flow: column wrap;
+    margin: 20px auto 20px auto;
+    width: 80%;
+    max-width: 80%;
+    background-color: #D2D6DA;
+    justify-content:space-evenly; 
+    
+}
+.project h1{
+    width: fit-content;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .06em;
+    margin: 10px 0px 0px 0px;
+}
+.projectInfo{
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.projectInfo img{
+    width: 350px;
+    max-width: 100%;
+    height: 150px;
+    max-height: 100%;
+    margin: 20px 0 auto 0;
+}
+.projectText{
+    max-width: 68%;  
+    font-size: larger; 
+    display: flex;
+    flex-flow: row wrap; 
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: -.05em;
+    margin-left: 20px;
+    
+}
+.projectlink{
+    margin: 0 30px 0 0;
+}
+#backtotop{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .06em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;    
+    width: 220px;
+    height: 70px;
+    color: #008712;
+    background-color: #bcebc2;
+    box-sizing: border-box;
+    border: 10px solid #8de398;
+    font-size: x-small;
+    margin: 10px auto 35px auto;
+
+}
+#backtotop:hover {color: #13bf2a; background-color: #8de398; transition: background-color .25s ease-out 1ms; }
+#backtotop:focus {color: #13bf2a; background-color: #8de398; }
+#backtotop:active {color: #c7500c; background-color: #ffb48a;}
+
+.back{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .06em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;    
+    width: 220px;
+    height: 70px;
+    color: #008712;
+    background-color: #bcebc2;
+    box-sizing: border-box;
+    border: 10px solid #8de398;
+    font-size: x-small;
+    margin: 10px 10px 10px 35px;
+}
+.back:hover {color: #13bf2a; background-color: #8de398; transition: background-color .25s ease-out 1ms; }
+.back:focus {color: #13bf2a; background-color: #8de398; }
+.back:active {color: #c7500c; background-color: #ffb48a;}
+#imageSiteHeader{
+    background-color: #D2D6DA;   
+    border: 10px solid #6fd6e3; 
+    width: fit-content;
+    padding: 0px 20px 0px 35px;
+    margin: 10px 10px 10px 35px;
+    
+}
+#imageSiteHeader h1{text-decoration: underline; font-family: 'Fjalla One', sans-serif; letter-spacing: .06em; }
+#imageSiteHeader h2{font-family: 'Bakbak One', cursive; }
+#imageSiteBody{
+    background-color: #D2D6DA; 
+    border: 10px solid #6fd6e3; 
+    margin: 10px 10px 10px 35px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 95%;
+
+}
+#imageSiteBody video{
+    margin: auto;
+    max-width: 90%;
+}
+#imageSiteBody img{
+    border-left: 10px solid #D2D6DA; border-right: 10px solid #D2D6DA; border-top: 10px solid #D2D6DA;
+}
+
+a:link {color: #008712}
+a:visited {color: #004709}
+a:focus {color: #13bf2a}
+a:hover {color: #13bf2a}
+a:active {color: #c7500c}
+
+
+@media screen and (max-width: 1250px) {
+    .projectInfo{flex-flow: row wrap; }
+    .projectText{max-width: 100%; margin: 0; }
+}
+@media screen and (max-width: 956px){
+    #name{height:80px; }
+}
+@media screen and (max-width: 800px) {
+    #nameandphoto{max-width: 90%; }
+    #inTagline{max-width: 90%; }
+    #tagline h2{max-width: 95%; }
+    #name{height:80px; border-bottom: 10px solid #D2D6DA; border-top: 10px solid #D2D6DA;}
+    #photo{padding: 0px 0px 10px 0px; }
+    #navBar{
+        flex-flow: row wrap; 
+        text-align: center; 
+        font-size: small; 
+        margin: 20px auto 20px auto; 
+        width: 98%; 
+        max-width: 98%; 
+    }
+    .navBarElement{
+        background-color: #bcebc2; 
+        align-items: center; 
+        outline: 4px solid #83d48d; 
+    }
+    .navBarElement h1{max-width: 85%; }
+    #aboutMeTitle{width: 98%; max-width: 98%; }
+    #inAboutme{width: 98%; max-width: 98%; line-height: 5px; }
+    #galleryTitle {width: 98%; max-width: 98%; }
+    #galleryInner{width: 98%; max-width: 98%; }
+    #projectsTitle{width: 98%; max-width: 98%; }
+    #projects{width: 98%; max-width: 98%; }
+    .project h1{margin: 10px auto 0px auto; }
+    .projectInfo img{margin: 20px auto auto auto; }
+    .projectlink{margin: 0 auto; }
+    .vidlink{margin: 0 auto; }
+    #contactInfoTitle{width: 98%; max-width: 98%; }
+    #underHeader{max-width: 98%; flex-flow: column nowrap; }
+    #contactInfo{margin-left: 10%; }
+    #resume{margin-left: 10%; }
+
+    .back{margin: 10px 0px 10px 0px; }
+    #imageSiteHeader{margin: 10px 0px 10px 0px; }
+    #imageSiteBody{margin: 10px 0px 10px 0px; }
+}

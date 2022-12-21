@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua D'Addio's Project 02 Notes</title>
+    <style>
+        blockquote{font-size: larger; line-height: 2rem;}
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <blockquote>
+            I made this site using a combination of HTML, CSS and javascript. The javascript was my main focus in the project, being what would make everything work with regards to the API. When planning the site, I originally intended to make a multiple-page layout, but was advised against it, so I did my best to create a single-page site that would change layouts based on what was meant to be displayed. I unfortunately did not have time to comment much of the script, so it may be visually confusing at a glance. I created several methods that would be called upon interactions with different elements on the site, each doing a different thing. The "search" inputs store their values in the local storage when they are updated, and changing the "media" selector also changes the values stored in the "genre" input, to fit the different genres for anime objects and manga objects. When the content is loaded, an array of buttons is created, each of which stores a method that will create a new section with information about the anime object represented by the button. This section can then be expanded, to run the API again with a new link to show similar anime to the one previously clicked, based on the API's "recommendations" search. The script also stores the current page, which is updated every time the user changes the page manually, and the previous page, which is updated only when the content is successfully loaded. This way, if an error occurs with the API, such as the user inputting an invalid page number, the site will re-load the last successfully loaded content without issue. There is a bit more in the script I used to make everything work as it does, but those are the most important things to make the page do what it does visually. I am pretty proud of this project, I was still confused about how APIs worked when I had started, but I learned a lot from this project about both APIs and the uses of javascript. I'm especially proud of the "see more like this" option, which was my original goal in my concept for this project.
+        </blockquote>
+    </main>
+
+</body>    
+
+</html>

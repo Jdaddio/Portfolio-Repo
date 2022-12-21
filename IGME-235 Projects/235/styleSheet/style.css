@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+body {background-color: #4FA1BA;}
+header{width: 40vw; margin: 0 auto; background-color: aqua;}
+#headerSection {display: flex; flex-flow: row wrap; align-items: center; justify-content: center;}
+header img {width: 9vw; margin: 1rem 2rem;}
+.headerText {margin: 1rem 2rem; font-family: 'Fjalla One', sans-serif; border-bottom: 2px solid blue;}
+main {width: 90vw; margin: 0 auto; background-color: #9CFFD9;}
+#mainSection{display: flex; flex-flow: row wrap; align-items: center; justify-content: center;}
+blockquote{margin: 1rem 4rem; font-size:larger;}
+.links{flex: 0 1 15rem; display: block; margin: 2rem; text-align: center; font-size: large;  background-color: #F2EDE3; border: 1px solid black;}
+a:link {color: #BB443A}
+a:visited {color: #7E2C25}
+a:hover {color: #D47B73}
+a:active {color: #4F1C17}
+* {line-height: 1.5;}
