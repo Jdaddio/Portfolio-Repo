@@ -1,0 +1,2 @@
+# IGME-209 Project: HW1 Hangman
+C++ console application that displays an ASCII art game of hangman. The user must enter individual letters to guess parts of a word, which will then be revealed in the word if the guess was correct, or will be added to the list of wrong guesses if the guess was incorrect. (NOTE: This application is case-sensitive, and only lower-case letters should be entered as guesses.)
